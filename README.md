@@ -1,4 +1,4 @@
 # LeetCode
 java implement leetcode
 
-一天二刷
+立一个flag，每周刷5题
