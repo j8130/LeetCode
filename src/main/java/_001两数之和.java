@@ -20,22 +20,30 @@
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 class Solution001 {
-    public int[] twoSum(int[] nums, int target) {
-        
-        int[] nums = [2, 7, 11, 15]; 
-        int[] target = 9;
-        int[] resoult;
-        for(int i = 0;i<nums.length;i++){
-            for(int j=i+1;j<nums.length;j++){
-            
-                if((nums[i]+nums[j])==target){
-                
-                    resoult
-                
+    public static void main(String[] args) {
+
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        int[] ints = twoSum(nums, target);
+
+        for (int anInt : ints) {
+            System.out.println(anInt);
+        }
+    }
+
+    public static int[] twoSum(int[] nums, int target) {
+
+        int[] resoult = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if ((nums[i] + nums[j]) == target) {
+                    resoult[0] = nums[i];
+                    resoult[1] = nums[j];
+
                 }
             }
-        
+
         }
-        return null;
+        return resoult;
     }
 }
