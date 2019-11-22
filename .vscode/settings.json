@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        // 主题颜色
+        "titleBar.activeBackground": "#c06f98",
+        // title上的字体颜色
+        "titleBar.activeForeground": "#ffffff",
+        // 修改非选中状态与选中状态一致
+        "titleBar.inactiveBackground": "#c06f98",
+        "titleBar.inactiveForeground": "#ffffff"
+      }
+}
